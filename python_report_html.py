@@ -1,9 +1,12 @@
+# 1. Set up multiple variables to store the titles, text within the report
 page_title_text='My report'
 title_text = 'Daily S&P 500 prices report'
 text = 'Hello, welcome to your report!'
 prices_text = 'Historical prices of S&P 500'
 stats_text = 'Historical prices summary statistics'
 
+
+# 2. Combine them together using a long f-string
 html = f'''
     <html>
         <head>
@@ -20,5 +23,6 @@ html = f'''
         </body>
     </html>
     '''
+# 3. Write the html string as an HTML file
 with open('html_report.html', 'w') as f:
     f.write(html)
