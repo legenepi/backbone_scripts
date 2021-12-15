@@ -14,3 +14,6 @@ Template to use r language to import dataframe. Basic dataframe handling with ti
 
 **template.Rmd**<br/>
 Template to write .Rmd file and do wonderful report ! (still very skinny, happy if you wan to add content/tips !!)
+
+**template.python.py**<br/>
+Template python with basic operations: sys.argv, open close file, pandas dataframe. Data collated from https://qcbsciprolab2019.readthedocs.io/en/latest/practical8.html#Loading-data-from-external-files
