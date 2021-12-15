@@ -1,0 +1,16 @@
+---
+title: "Title of your project"
+author: "Hannah Star"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    code_folding: "hide"
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+#comment line
+
+#<br> to add a white line
+<br>
