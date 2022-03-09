@@ -10,6 +10,26 @@ output:
     theme: united
 ---
 
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+# Rationale
+
+# Analysis
+
+## Analysis 1
+
+## Analysis 2
+
+# Results
+
+# Conclusion
+
+# Notes
+
 #comment line
 
 #<br> to add a white line
