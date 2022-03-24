@@ -17,3 +17,6 @@ Template to write .Rmd file and do wonderful report ! (still very skinny, happy 
 
 **template.python.py**<br/>
 Template python with basic operations: sys.argv, open close file, pandas dataframe. Data collated from https://qcbsciprolab2019.readthedocs.io/en/latest/practical8.html#Loading-data-from-external-files
+
+**venv_env.sh**<br/>
+Commands to create and activate a venv environment
