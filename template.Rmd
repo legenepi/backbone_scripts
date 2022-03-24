@@ -10,15 +10,16 @@ output:
     theme: united
 ---
 
+#library reticulate to be able toadd  chuncks in another language
 ```{r, setup, hide = TRUE}
 library(reticulate)
+```
 
 # To run this .rmd file in a terminal:
 #export PATH=${PATH}:/cm/shared/apps/R/deps/rstudio/bin/pandoc
 #file="./Medication_list.Rmd"
 #module load R
 #Rscript -e 'rmarkdown::render("'$file'")'
-```
 
 # Heading 1
 
