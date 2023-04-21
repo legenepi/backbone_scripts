@@ -10,9 +10,15 @@ output:
     theme: united
 ---
 
-#library reticulate to be able toadd  chuncks in another language
 ```{r, setup, hide = TRUE}
+#library reticulate to be able to add chunks in another language
 library(reticulate)
+#To run this .rmd file in a terminal being in the project folder:
+#export PATH=${PATH}:/cm/shared/apps/R/deps/rstudio/bin/pandoc
+#file="./report/Association_analysis.Rmd"
+#module unload R/4.2.1
+#module load R/4.1.0
+#Rscript -e 'rmarkdown::render("'$file'")'
 ```
 
 # To run this .rmd file in a terminal:
@@ -45,3 +51,12 @@ library(reticulate)
 
 #<br> to add a white line
 <br>
+
+Add code:
+```{r, code = readLines(''), eval=FALSE}
+```
+
+Add image:
+```{r, out.width='100%', out.height='200%', fig.align='center', fig.cap='Fig 5. Q-Q plot asthma GWAS.', echo = FALSE}
+knitr::include_graphics('')
+```
